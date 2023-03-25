@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E293A6129C2C99A00156D4B /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E293A6029C2C99A00156D4B /* FirstPage.swift */; };
+		4E293A6329C2C9AA00156D4B /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E293A6229C2C9AA00156D4B /* SecondPage.swift */; };
 		4EB6F6D729A468810070FCCA /* TestUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6F6D629A468810070FCCA /* TestUIApp.swift */; };
 		4EB6F6D929A468810070FCCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6F6D829A468810070FCCA /* ContentView.swift */; };
 		4EB6F6DB29A468840070FCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB6F6DA29A468840070FCCA /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E293A6029C2C99A00156D4B /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		4E293A6229C2C9AA00156D4B /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
 		4EB6F6D329A468810070FCCA /* TestUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB6F6D629A468810070FCCA /* TestUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIApp.swift; sourceTree = "<group>"; };
 		4EB6F6D829A468810070FCCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				4EB6F6D829A468810070FCCA /* ContentView.swift */,
 				4EB6F6DA29A468840070FCCA /* Assets.xcassets */,
 				4EB6F6DC29A468840070FCCA /* Preview Content */,
+				4E293A6029C2C99A00156D4B /* FirstPage.swift */,
+				4E293A6229C2C9AA00156D4B /* SecondPage.swift */,
 			);
 			path = TestUI;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E293A6329C2C9AA00156D4B /* SecondPage.swift in Sources */,
 				4EB6F6D929A468810070FCCA /* ContentView.swift in Sources */,
 				4EB6F6D729A468810070FCCA /* TestUIApp.swift in Sources */,
+				4E293A6129C2C99A00156D4B /* FirstPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

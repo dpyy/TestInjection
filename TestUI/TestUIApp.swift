@@ -1,9 +1,3 @@
-//
-//  TestUIApp.swift
-//  TestUI
-//
-//  Created by Gary Fung on 2023-02-20.
-//
 
 import SwiftUI
 
